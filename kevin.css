@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow|Lexend+Mega|Muli:300&display=swap');
+
+h1 {
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Muli', sans-serif;
+}
+
+
+p {
+  font-family: 'Barlow', sans-serif;
+}

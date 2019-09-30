@@ -12,6 +12,10 @@ mark {
 }
 a {
   color: #68264c;
+  text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 h1 {
@@ -28,3 +32,36 @@ h2, h3, h4, h5, h6 {
 p {
   font-family: 'Barlow', sans-serif;
 }
+
+blockquote {
+    margin-bottom: 3em;
+    padding-left: 1em;
+    border-left: 0.2em solid #291713;
+    position: relative;
+    font-family: "Sanchez", serif;
+    font-size: 15px;
+    line-height: 1.5em;
+  }
+  blockquote p {
+    font-family: "Slabo 13px", serif;
+  }
+  blockquote cite {
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 0.6em;
+    font-weight: 700;
+    color: #000815;
+    float: right;
+  }
+  blockquote cite:before {
+    content: "―";
+  }
+  blockquote:after {
+    content: "”";
+    position: absolute;
+    top: 0.28em;
+    right: 0;
+    font-size: 6em;
+    font-style: italic;
+    color: #000815;
+    z-index: -1;
+  }

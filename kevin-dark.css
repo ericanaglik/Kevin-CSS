@@ -64,3 +64,9 @@ blockquote:after {
   color: #e7e6e4;
   z-index: -1;
 }
+
+hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #F2EBE6 inset;
+}

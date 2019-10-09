@@ -9,7 +9,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-  /* background-color: #4285F4; */
   
 }
 .navbar > ul {

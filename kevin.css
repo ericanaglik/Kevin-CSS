@@ -116,14 +116,11 @@ hr {
   left: 0;
   transition: 200ms
 }
-/* When the .switch has the class .on change the 
-color to green. */
 
 .switch-2 input:checked ~ div {
   background-color: #926640;
 }
-/* When the .switch has the .on class change the 
-position left to 40px. */
+
 
 .switch-2 input:checked ~ div {
   left: 40px;

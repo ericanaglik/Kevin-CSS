@@ -90,3 +90,81 @@ hr {
     border: 0;
     box-shadow: 0 10px 10px -10px #F2EBE6 inset;
 }
+
+.switch-2 {
+  width: 100px;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  background-color: #efefef;
+  position: relative;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.switch-2 > input {
+  display: none;
+}
+
+.switch-2 > div {
+  width: 56px;
+  height: 56px;
+  background-color: #A17A6B;
+  border-radius: 50%;
+  margin: 2px;
+  position: absolute;
+  left: 0;
+  transition: 200ms
+}
+
+.switch-2 input:checked ~ div {
+  background-color: #383337;
+}
+
+
+.switch-2 input:checked ~ div {
+  left: 40px;
+}
+
+input[type=text], 
+input[type=email], 
+input[type=password], 
+textarea {
+  --border-color: var(--color-medium);
+  padding: 0.7em 1em;
+  border: 2px solid var(--border-color);
+  border-radius: 25em;
+  font-size: 1em;
+  box-shadow: 0 2px 10px #F2EBE6;
+
+  /* Add a transition */
+  transition: 200ms;
+
+}
+
+label {
+  display: block;
+  margin: 0 0 1em 0;
+}
+
+label > span {
+  font-size: 0.75em;
+  display: block;
+  margin: 1em 0;
+}
+
+button {
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: white;
+  padding: 15px;
+  color: black;
+}
+
+button:hover {
+    color: #CF7C85;
+}
+
+button:active {
+  box-shadow: 0 2px 10px #F2EBE6;
+}

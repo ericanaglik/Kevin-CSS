@@ -39,6 +39,7 @@ a:hover {
 h1 {
   font-family: 'Lexend Mega', sans-serif;
   color: #F2EBE6;
+  font-size: 40px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -46,6 +47,19 @@ h2, h3, h4, h5, h6 {
   color: #DFBD9F;
 }
 
+.text-muted {
+  color:rgb(195, 194, 193);
+}
+
+h1 .text-muted {
+  font-size: 30px;
+}
+
+/* code {
+  display: inline-block;
+  background-color:#D8C2B6;
+  color: black;
+} */
 
 p {
   font-family: 'Barlow', sans-serif;
